@@ -31,10 +31,16 @@ export default function Game() {
     return (
         <>
             <div id="container-topo">
-                <div className='titulo'>FlashCards Challenge</div>
+                <div className='titulo'>CARD GAME DREAM 
+                <img src="/src/img/logo.png" alt="" />
+                </div>
+                
                 <Xp total={xp} />
             </div>
+            <h1>Game Cards</h1>
             <div id='caixa-cards'>
+               
+                
                 {cards.map((word, idx) => <Card increaseXP={increaseXP} decreaseXP={decreaseXP} key={idx} content={word} />)}
             </div>
 

@@ -5,15 +5,28 @@
     justify-content: center;
 }
 
+ h1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #container-topo {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    color: #ccc;
+    color: black;
     font-family: 'Lily Script One';
     margin-top: 10px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid black;
+}
+
+#container-topo img{
+    width: 10%;
 }
 
 #container-topo .titulo {

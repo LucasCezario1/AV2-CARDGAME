@@ -27,4 +27,15 @@ export let words = [
         open: 'Pato',
         hide: 'Duck'
     },
+
+    {
+        open: 'Cachorro',
+        hide: 'Dog'
+    },
+
+    {
+        open: 'Bird',
+        hide: 'Ave'
+    },
+
 ]
