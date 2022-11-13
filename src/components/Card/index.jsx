@@ -11,7 +11,7 @@ export default function Card({ content, increaseXP, decreaseXP }) {
     const handleClick = () => {
         setIsOpened(true)
 
-        Math.random() > 0.5 ? increaseXP() : decreaseXP()
+        Math.random() > 0.6 ? increaseXP() : decreaseXP()
     }
 
     return (
