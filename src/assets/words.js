@@ -8,17 +8,10 @@ export let words = [
         hide: 'Cat'
     },
     {
-        open: 'Vaca vaca vaca',
-        hide: 'Cow Cow Cow'
-    },
-    {
         open: 'Pato',
         hide: 'Duck'
     },
-    {
-        open: 'Gato',
-        hide: 'Cat'
-    },
+
     {
         open: 'Vaca',
         hide: 'Cow'
@@ -36,6 +29,11 @@ export let words = [
     {
         open: 'Bird',
         hide: 'Ave'
+    },
+
+    {
+        open: 'Monkey',
+        hide: 'macaco'
     },
 
 ]

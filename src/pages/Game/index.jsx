@@ -14,7 +14,7 @@ export default function Game() {
     const [xp, setXP] = useState(0)
 
     useEffect(() => {
-        let random = words.sort(() => Math.random() - 0.5)
+        let random = words.sort(() => Math.random() - 0.6)
         setCards(random.slice(0, TOTAL_CARDS))
     }, [])
 
@@ -32,7 +32,7 @@ export default function Game() {
         <>
             <div id="container-topo">
                 <div className='titulo'>CARD GAME DREAM 
-                <img src="/src/img/logo.png" alt="" />
+                <img src="/src/img/logo.png" alt="logo" />
                 </div>
                 
                 <Xp total={xp} />
